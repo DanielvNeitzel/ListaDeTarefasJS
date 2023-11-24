@@ -1,45 +1,59 @@
-     body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      align-content: center;
-      justify-content: center;
-      align-items: center;
-      background-color: #212c69;
-      color: #fff;
-    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #212c69;
+    color: #fff;
+}
 
-    #taskInput {
-      width: 200px;
-      margin-right: 10px;
-      padding: 10px;
-      border: 3px solid #000;
-      border-radius: 25px;
-    }
+#taskInput {
+    width: 100%;
+    margin-right: 10px;
+    padding: 10px;
+    margin: 0 0 15px 0;
+    border: 3px solid #000;
+    border-radius: 25px;
+}
 
-    #addTaskBtn {
-      cursor: pointer;
-      padding: 10px;
-      background: #000;
-      border: 1px solid #ffffff;
-      border-radius: 30px;
-      color: #fff;
-      text-transform: uppercase;
-      font-weight: 600;
-    }
+#addTaskBtn {
+    cursor: pointer;
+    padding: 10px;
+    background: #000;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
+}
 
-    #taskList {
-      margin-top: 20px;
-    }
+#addTaskBtn:active {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
 
-    .taskItem {
-      margin-bottom: 5px;
-    }
+#taskList {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    list-style-type: disclosure-closed;
+    text-align: justify;
+}
 
-    .deleteBtn {
-      cursor: pointer;
-      margin-left: 5px;
-      color: red;
-    }
+.taskItem {
+    padding: 8px 0;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.deleteBtn {
+    cursor: pointer;
+    margin-left: 5px;
+    color: red;
+}
