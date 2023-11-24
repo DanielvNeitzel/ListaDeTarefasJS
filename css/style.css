@@ -70,6 +70,7 @@ body {
   top: 0;
   width: auto;
   height: auto;
+  color: #000;
   background: #ffffff;
   flex-direction: row;
   flex-wrap: nowrap;
