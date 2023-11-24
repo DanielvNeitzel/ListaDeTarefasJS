@@ -21,6 +21,13 @@
 
     #addTaskBtn {
       cursor: pointer;
+      padding: 10px;
+      background: #000;
+      border: 1px solid #ffffff;
+      border-radius: 30px;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 600;
     }
 
     #taskList {
