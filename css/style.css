@@ -1,6 +1,14 @@
-body {
+     body {
       font-family: Arial, sans-serif;
       margin: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      background-color: #212c69;
+      color: #fff;
     }
 
     #taskInput {
