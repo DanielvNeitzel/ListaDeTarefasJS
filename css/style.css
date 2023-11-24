@@ -1,49 +1,27 @@
-/* BASE CSS TEMPLATE */
-
-@font-face {
-  font-family: Vampire;
-  src: url(../fonts/Neon\ Vampire.ttf);
-}
-
-.font-vamp {
-  font-family: Vampire;
-  color: #fff;
-  text-shadow: 12px solid #00fff2;
-}
-
-.img-size-small {
-    width: 150px;
-    padding: 0;
-    margin: 0;
-}
-
-.pulse {
-    animation: pulse 0.6s infinite;
-    margin: 0 auto;
-    display: table;
-    animation-direction: alternate;
-    -webkit-animation-name: pulse;
-    animation-name: pulse;
-  }
-  
-  @-webkit-keyframes pulse {
-    0% {
-      -webkit-transform: scale(1);
-      -webkit-filter: brightness(100%);
+body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
     }
-    100% {
-      -webkit-transform: scale(1);
-      -webkit-filter: brightness(175%);
+
+    #taskInput {
+      width: 200px;
+      margin-right: 10px;
     }
-  }
-  
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-      filter: brightness(100%);
+
+    #addTaskBtn {
+      cursor: pointer;
     }
-    100% {
-      transform: scale(1);
-      filter: brightness(175%);
+
+    #taskList {
+      margin-top: 20px;
     }
-  }
+
+    .taskItem {
+      margin-bottom: 5px;
+    }
+
+    .deleteBtn {
+      cursor: pointer;
+      margin-left: 5px;
+      color: red;
+    }
