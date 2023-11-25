@@ -59,42 +59,41 @@ body {
 }
 
 
-/* ----------------------------- */
-/* Custom bar gitHub */
-/* ----------------------------- */
+/* ----------------------------- */
+ /* Custom bar gitHub */
+ /* ----------------------------- */
 
-.githubref {
-  display: flex;
-  position: absolute;
-  left:0;
-  top: 0;
-  width: auto;
-  height: auto;
-  color: #000;
-  background: #ffffff;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  border: 3px solid #000;
-  border-radius: 10px;
-  padding: 0 14px 0px;
-}
+    .githubref {
+      display: flex;
+      position: relative;
+      width: 200px;
+      height: auto;
+      color: #000;
+      background: #ffffff;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid #000;
+      border-radius: 10px;
+      padding: 0 14px 0px;
+      margin: 0 auto;
+    }
 
-.githubref a {
-  font-size: 45px;
-  color: #200054;
-}
+    .githubref a {
+      font-size: 45px;
+      color: #200054;
+    }
 
-.githubref a:hover {
-  color: #6200ff;
-}
+    .githubref a:hover {
+      color: #6200ff;
+    }
 
-.githubref p {
-  font-family: monospace;
-  font-size: 1em;
-  font-weight: bold;
-  padding: 0 0 0 10px;
-}
-
+    .githubref p {
+      font-family: monospace;
+      font-size: 1em;
+      font-weight: bold;
+      padding: 0 0 0 10px;
+      margin: 0;
+    }
